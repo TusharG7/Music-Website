@@ -1,0 +1,32 @@
+/*
+@keyframes move{
+0%{
+    display: none;
+    
+}
+50%{
+   display: block;
+}
+100%{
+    
+   display: block;
+}
+}
+*/
+@media(min-width: 900px){
+    
+   .showcase-img .right{
+    display: block;
+    }
+}
+@media(min-width:600px) and (max-width:899px){
+     .showcase-img .right{
+    display: block;
+    }
+}
+@media(max-width:399px){
+   
+     .showcase-img .right{
+    display: none;
+    }
+}
